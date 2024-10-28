@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": [
+    "node_modules/@types/aria-query",
+    "node_modules/@types/connect",
+    "node_modules/@types/conventional-commits-parser",
+    "node_modules/@types/estree",
+    "node_modules/@types/json-schema",
+    "node_modules/@types/mysql",
+    "node_modules/@types/pg",
+    "node_modules/@types/pg-pool",
+    "node_modules/@types/react-dom",
+    "node_modules/@types/semver",
+    "node_modules/@types/shimmer",
+    "node_modules/@types/stack-trace",
+    "node_modules"
+  ]
+}

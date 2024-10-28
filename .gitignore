@@ -1,0 +1,43 @@
+node_modules
+# Dependencies
+node_modules
+/.pnp
+.pnp.js
+
+# Next.js
+/.next
+/out
+.next/cache
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+error.log
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Typescript
+*.tsbuildinfo
+
+# VSCode
+.vscode/*
+
+# MacOS
+.DS_Store
+
+# IDE
+.idea/
+
+# Debugging
+*.log
+*.log.*
+
+# Build output
+dist/
