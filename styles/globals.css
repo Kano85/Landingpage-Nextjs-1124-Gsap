@@ -1,6 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* In styles/globals.css */
+@font-face {
+  font-family: 'GeistMono';
+  src: url('/fonts/GeistMonoVF.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* 
 :root {
   --background: #ffffff;

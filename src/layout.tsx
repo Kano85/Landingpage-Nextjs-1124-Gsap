@@ -1,4 +1,4 @@
-// src/app/layout.tsx
+// src/layout.tsx
 
 // import { ClerkProvider } from '@clerk/nextjs';
 import type { Metadata } from 'next';

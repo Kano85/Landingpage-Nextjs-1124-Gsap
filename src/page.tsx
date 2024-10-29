@@ -1,4 +1,4 @@
-// src/app/page.tsx
+// src/page.tsx
 
 import Image from 'next/image';
 
