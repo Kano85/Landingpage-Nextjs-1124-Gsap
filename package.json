@@ -66,14 +66,6 @@
     "vite": "^5.4.10",
     "vitest": "^2.1.4"
   },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx}": "eslint --fix"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
-  },
   "resolutions": {
     "vite": "5.4.10",
     "rollup": "3.0.0"
