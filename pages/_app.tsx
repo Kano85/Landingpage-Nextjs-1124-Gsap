@@ -1,4 +1,5 @@
 // pages/_app.tsx
+
 import type { AppProps } from 'next/app';
 import localFont from 'next/font/local';
 import '../styles/globals.css';
