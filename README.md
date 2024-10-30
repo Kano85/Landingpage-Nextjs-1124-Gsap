@@ -1,87 +1,56 @@
-🌟 Portfolio Next.js GSAP Project
-This portfolio project is built with Next.js, GSAP, and TypeScript, focusing on dynamic animations and responsive design.
+# 🌟 Portfolio Next.js GSAP Project
 
-🚀 Important Note on Routing
-⚠️ Routing Approach:
-This project uses the pages directory for routing instead of the newer app router. The pages routing system was chosen specifically to enable seamless page transitions. With Next.js, the app router currently lacks built-in support for page transitions, which limits animation options when navigating between pages. Using the pages router allows us to leverage GSAP animations to create fluid, visually appealing transitions as users explore different sections of the portfolio.
+A dynamic and responsive portfolio built with **Next.js**, **GSAP**, and **TypeScript**, showcasing smooth animations and seamless user experience.
 
-📚 Table of Contents
-Project Setup
-Available Scripts
-Dependencies
-Features
-Folder Structure
-Testing
-Linting & Formatting
-Contributing
-License
-🛠️ Project Setup
-Clone the Repository:
+---
 
-git clone https://github.com/YOUR_USERNAME/portfolio-nextjs-1124-gsap.git
-cd portfolio-nextjs-1124-gsap
-Install Dependencies:
+## 🚀 Key Features
 
+- **Animated UI:** Leveraging GSAP for fluid animations and transitions.
+- **Multilingual Support:** Integrated with `next-intl` for translations and localization.
+- **Authentication:** Secure user authentication using Clerk.
+- **Database Integration:** Type-safe PostgreSQL connectivity via Drizzle ORM.
+- **Form Management:** Robust form handling with `react-hook-form` and `Zod` for validation.
+- **Error Monitoring:** Enhanced reliability with Sentry integration.
+
+---
+
+## 📦 Dependencies
+
+- **Framework & Libraries:**
+
+  - [Next.js](https://nextjs.org/) v15.0.1
+  - [React](https://reactjs.org/) v18.3.1
+  - [GSAP](https://greensock.com/gsap/) v3.12.5
+  - [TypeScript](https://www.typescriptlang.org/) v5.6.3
+  - [TailwindCSS](https://tailwindcss.com/) v3.4.14
+
+- **Authentication & Localization:**
+
+  - [Clerk](https://clerk.dev/) v6.0.2
+  - [next-intl](https://github.com/amannn/next-intl) v3.23.5
+
+- **Form & Validation:**
+
+  - [react-hook-form](https://react-hook-form.com/) v7.53.1
+  - [Zod](https://zod.dev/) v3.23.8
+
+- **Database & ORM:**
+
+  - [Drizzle ORM](https://drizzle.team/) v0.35.3
+  - [PostgreSQL](https://www.postgresql.org/) via `pg` v8.13.1
+
+- **Utilities:**
+  - [Sentry](https://sentry.io/) v8.35.0
+  - [Logtail](https://logtail.com/) v0.5.2
+  - [Pino](https://getpino.io/) v9.5.0
+
+---
+
+## 🛠️ Getting Started
+
+### Installation
+
+```bash
 npm install
-Run the Development Server:
-
-npm run dev
-The application should now be running on http://localhost:3000.
-
-🎩 Available Scripts
-
-Script Description
-npm run dev 🧪 Start the development server
-npm run build 🏗️ Compile the project for production
-npm run start 🚀 Start the production server
-npm run lint 🔍 Run ESLint for code linting
-npm run test ✅ Run tests with Vitest
-
-📦 Dependencies
-
-Next.js: Core framework for building React applications.
-GSAP: Animation library for handling smooth transitions and effects.
-TypeScript: Strongly typed JavaScript, enhancing code reliability.
-TailwindCSS: Utility-first CSS framework for responsive, customizable designs.
-Clerk: Authentication service, providing multi-language support and localization.
-Drizzle ORM: SQL ORM, providing type-safe query construction.
-Zod: Schema validation library, simplifying input validation.
-For a full list of dependencies, please check the package.json file.
-
-✨ Features
-
-Animated UI: Leveraging GSAP for animations across components.
-Multilingual Support: Using next-intl to provide translations and localization.
-Database Connectivity: PostgreSQL database integration via Drizzle ORM.
-Customizable Forms: Form validation and management using react-hook-form and @hookform/resolvers.
-
-📂 Folder Structure
-
-portfolio-nextjs-1124-gsap/
-├── /pages # Next.js pages for routing
-├── /components # Reusable React components
-├── /lib # Utilities and helpers
-├── /public # Public assets like images and fonts
-├── /styles # TailwindCSS configuration and custom CSS
-└── /tests # Unit tests using Vitest and Testing Library
-🧪 Testing
-Testing Library: Test individual React components and DOM interactions.
-Vitest: Run tests with the command npm run test.
-Coverage: Check test coverage using vitest for comprehensive testing.
-🔍 Linting & Formatting
-ESLint: Configured for TypeScript, React, and Next.js.
-bash
-Copy code
-npm run lint
-Prettier: Formatting rules integrated with ESLint to maintain consistency.
-
-🤝 Contributing
-
-Fork the repository.
-Clone the forked repository to your machine.
-Create a new branch for your feature or bugfix.
-Submit a pull request for review.
-
-📜 License
-
-This project is licensed under the MIT License.
+```
