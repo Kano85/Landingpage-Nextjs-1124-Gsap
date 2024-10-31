@@ -1,24 +1,15 @@
 // pages/_app.tsx
-
 import type { AppProps } from 'next/app';
-import localFont from 'next/font/local';
+import { Inter } from 'next/font/google';
 import '../styles/globals.css';
+import Header from '../components/Header';
 
-const geistSans = localFont({
-  src: '../public/fonts/GeistVF.woff',
-  variable: '--font-geist-sans',
-  weight: '100 900',
-});
-
-const geistMono = localFont({
-  src: '../public/fonts/GeistMonoVF.woff',
-  variable: '--font-geist-mono',
-  weight: '100 900',
-});
+const inter = Inter({ subsets: ['latin'] });
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <div className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+    <div className={inter.className}>
+      <Header />
       <Component {...pageProps} />
     </div>
   );

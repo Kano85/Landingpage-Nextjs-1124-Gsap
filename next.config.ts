@@ -23,6 +23,9 @@ const nextConfig: NextConfig = {
     NEXT_PUBLIC_API_URL: process.env.NEXT_PUBLIC_API_URL, // Add other env variables as needed
   },
 
+  // **Added transpilePackages option to handle GSAP ESM imports**
+  transpilePackages: ['gsap'],
+
   // Custom webpack configuration for server-side packages
   webpack: (config, { isServer }) => {
     if (isServer) {
