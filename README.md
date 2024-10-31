@@ -2,7 +2,7 @@
 
 A dynamic and responsive portfolio built with **Next.js**, **GSAP**, and **TypeScript**, showcasing smooth animations and seamless user experience.
 
-The porject use pages rouetr to make posible smooth transitions.
+The project uses pages router to make posible smooth transitions.
 
 ---
 
