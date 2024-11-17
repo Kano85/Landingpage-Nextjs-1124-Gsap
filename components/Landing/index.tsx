@@ -51,7 +51,12 @@ const Landing: React.FC = () => {
       animate="enter"
       className={styles.landing}
     >
-      <Image src="/images/background.jpg" layout="fill" alt="background" />
+      <Image
+        src="/images/background.jpg"
+        layout="fill"
+        alt="background"
+        priority
+      />
       <div className={styles.sliderContainer}>
         <div ref={slider} className={styles.slider}>
           <p ref={firstText}>Freelance Developer -</p>
